@@ -4,13 +4,13 @@ Var
       nota1, nota2,nota3, nota4, media: real
 Inicio
 //entrada de dados
-   Escreva("Escreva a primeira nota: ")
+   Escreva("Escreva a nota do primeiro bimestre: ")
    leia(nota1)
-   Escreva("Escreva a segunda nota: ")
+   Escreva("Escreva a nota do segundo bimestre: ")
    leia(nota2)
-   Escreva("Escreva a terceira nota:")
+   Escreva("Escreva a nota do terceiro bimestre:")
    leia(nota3)
-   Escreva("Escreva a quarta nota: ")
+   Escreva("Escreva a nota do quarto bimestre: ")
    leia (nota4)
 //saída de dados
         media <- (nota1 + nota2 + nota3 + nota4)/4
@@ -25,5 +25,5 @@ Inicio
                  Escreval("aprovado")
              fimse
         fimse
-
+           escreval("Obrigado por usar nosso sistema")
 Fimalgoritmo
