@@ -16,10 +16,10 @@ Inicio
         media <- (nota1 + nota2 + nota3 + nota4)/4
         escreval("Sua média foi de: ", media)
 //estrutura condicional
-        se media <= 40 entao
+        se media <= 25 entao
            escreval("reprovado")
         senao
-             se media <75   entao
+             se media <50   entao
                  Escreval("recuperação")
              senao
                  Escreval("aprovado")
